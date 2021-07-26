@@ -1,4 +1,8 @@
 var table1 = document.getElementById('table1');
+var graph1 = document.createElement('div');
+
+console.log(table1.parentElement.append(graph1))
+table1.parent
 let table1Data = []
 
 let bable1Content = table1.children.item(2).children
